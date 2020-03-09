@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      
+       <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Aplicativo foda!</title>
+    </head>
+    <body>
+
+        <header>
+            <script>
+            function realizarLogin(){
+            
+            let usuario = document.getElementById("usuario").value;
+            let senha = document.getElementById("senha").value;
+            
+            let usuValido = "alisson";
+            let senhaValida = "123";
+            
+            if ((usuario == usuValido)&&(senha == senhaValida)){
+            alert("Login realizado com sucesso");
+            } else {
+            alert("Login ou senha incorreta");
+            }
+            }
+            
+            
+            
+            
+            </script>
+        </header>
+            
+
+        <div class="css">
+
+        <h5>Login</h5>
+        <input type="text" id="usuario">
+        <h5>Senha</h5>
+        <input type="text" id="senha"><br>
+        
+
+
+        <button class="botao" type="button" onclick="realizarLogin()">Login</button>
+
+        
+       
+        </div>
+    </body>
+</html>
